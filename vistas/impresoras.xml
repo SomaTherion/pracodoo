@@ -4,7 +4,7 @@
         <act_window id="ordenadores_impresoras_action" name="impresoras"
                      res_model="ordenadores.impresoras" />
 
-         <menuitem name="amplificadores" id="menu_amplificadoress" action="ordenadores_impresoras_action" parent="menu_inicio" sequence="15"/>
+         <menuitem name="impresoras" id="menu_impresorass" action="ordenadores_impresoras_action" parent="menu_inicio" sequence="15"/>
 
 
         <record id="ordenadores_impresoras_view_tree" model="ir.ui.view">

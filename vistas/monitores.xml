@@ -4,7 +4,7 @@
         <act_window id="ordenadores_monitores_action" name="monitores"
                      res_model="ordenadores.monitores" />
   
-        <menuitem name="Inicio" id="menu_inicio" sequence="10"/>
+
         <menuitem name="monitores" id="menu_monitores" action="ordenadores_monitores_action" parent="menu_inicio" sequence="15"/>
 
         <record id="ordenadores_monitores_view_tree" model="ir.ui.view">

@@ -4,11 +4,11 @@
         <act_window id="ordenadores_accesorios_action" name="accesorios"
                      res_model="ordenadores.accesorios" />
 
-         <menuitem name="amplificadores" id="menu_amplificadoress" action="ordenadores_accesorios_action" parent="menu_inicio" sequence="15"/>
+         <menuitem name="accesorio" id="menu_accesorios" action="ordenadores_accesorios_action" parent="menu_inicio" sequence="15"/>
 
 
         <record id="ordenadores_accesorios_view_tree" model="ir.ui.view">
-            <field name="name">Lista amplificadores</field>
+            <field name="name">Lista accesorio</field>
             <field name="model">ordenadores.accesorios</field>
             <field name="arch" type="xml">
                 <tree>
