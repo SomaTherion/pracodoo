@@ -5,5 +5,5 @@
     'version': '1.0',
     'website': 'iesayala.ddns.net',
     'depends': ['base'],
-    'data': ['vistas/guitars.xml', 'vistas/amps.xml', 'vistas/paises.xml', 'vistas/regiones.xml']
+    'data': ['vistas/ordenadores.xml', 'vistas/monitores.xml', 'vistas/accesorios.xml', 'vistas/impresoras.xml', 'vistas/paises.xml', 'vistas/regiones.xml']
 }
