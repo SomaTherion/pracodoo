@@ -1,6 +1,6 @@
-from odoo import modelos, fields, api
+from odoo import models, fields, api
 
-class Ordenadores(modelos.Model):
+class Ordenadores(models.Model):
     _name = 'ordenadores.ordenadores'
     codigo = fields.Integer('Codigo', required=True)
     marca = fields.Char('Marca', required=True)

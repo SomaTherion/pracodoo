@@ -1,6 +1,6 @@
-from odoo import modelos, fields, api
+from odoo import models, fields, api
 
-class Regiones(modelos.Model):
+class Regiones(models.Model):
     _name = 'ordenadores.regiones'
     region = fields.Char('Region', required=True)
     pais = fields.Many2one('ordenadores.paises', 'Paises')

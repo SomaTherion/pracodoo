@@ -1,7 +1,7 @@
 
-from odoo import modelos, fields, api
+from odoo import models, fields, api
 
-class Paises(modelos.Model):
+class Paises(models.Model):
     _name = 'ordenadores.paises'
     codigo = fields.Integer('Codigo', required=True)
     nombre = fields.Char('Nombre del pais', required=True)

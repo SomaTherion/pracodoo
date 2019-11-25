@@ -1,6 +1,6 @@
-from odoo import modelos, fields
+from odoo import models, fields
 
-class Accesorios(modelos.Model):
+class Accesorios(models.Model):
     _name = 'ordenadores.tiendas'
     codigo = fields.Integer('Codigo', required=True)
     marca = fields.Char('Marca', required=True)

@@ -1,6 +1,6 @@
-from odoo import modelos, fields
+from odoo import models, fields
 
-class Monitores(modelos.Model):
+class Monitores(models.Model):
     _name = 'ordenadores.monitores'
     codigo = fields.Integer('Codigo', required=True)
     marca = fields.Char('Marca', required=True)
