@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <data>
-        <act_window id="ordenadores_ordenadores_action" name="monitores"
+        <act_window id="ordenadores_monitores_action" name="monitores"
                      res_model="ordenadores.monitores" />
   
         <menuitem name="Inicio" id="menu_inicio" sequence="10"/>
