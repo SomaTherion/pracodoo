@@ -59,7 +59,7 @@
         </record>
         <menuitem name="Ordenadores" id="menu_ordenadores" sequence="10" />
         <menuitem name="Inicio" id="menu_inicio" parent="menu_ordenadores" sequence="10"/>
-        <menuitem name="Ordenadores" id="menu_ordenadores" action="ordenadores_ordenadores_action" parent="menu_inicio" sequence="10"/>
+        <menuitem name="Ordenadores" id="menu_ordenador" action="ordenadores_ordenadores_action" parent="menu_inicio" sequence="10"/>
 
     </data>
 </odoo>
