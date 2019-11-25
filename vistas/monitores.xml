@@ -8,8 +8,8 @@
         <menuitem name="monitores" id="menu_monitores" action="ordenadores_monitores_action" parent="menu_inicio" sequence="15"/>
 
         <record id="ordenadores_monitores_view_tree" model="ir.ui.view">
-            <field name="name">Lista ordenadores</field>
-            <field name="model">ordenadores.ordenadores</field>
+            <field name="name">Lista monitores</field>
+            <field name="model">ordenadores.monitores</field>
             <field name="arch" type="xml">
 
                 <tree>
