@@ -4,8 +4,6 @@
         <act_window id="ordenadores_ordenadores_action" name="monitores"
                      res_model="ordenadores.monitores" />
 
-        <menuitem name="monitores" id="menu_monitores" action="ordenadores_monitores_action" parent="menu_inicio" sequence="15"/>
-
 
         <record id="ordenadores_monitores_view_tree" model="ir.ui.view">
             <field name="name">Lista ordenadores</field>
@@ -59,6 +57,7 @@
                 </search>
             </field>
         </record>
+        <menuitem name="monitores" id="menu_monitores" action="ordenadores_monitores_action" parent="menu_inicio" sequence="15"/>
 
     </data>
 </odoo>
