@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <act_window id="ordenadores_impresoras_action" name="impresoras"
+                     res_model="ordenadores.impresoras" />
+
+         <menuitem name="amplificadores" id="menu_amplificadoress" action="ordenadores_impresoras_action" parent="menu_inicio" sequence="15"/>
+
+
+        <record id="ordenadores_impresoras_view_tree" model="ir.ui.view">
+            <field name="name">Lista impresoras</field>
+            <field name="model">ordenadores.impresoras</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="codigo" />
+                    <field name="marca" />
+                    <field name="modelo" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="ordenadores_impresoras_view_form" model="ir.ui.view">
+            <field name="name">Formulario de impresoras</field>
+            <field name="model">ordenadores.impresoras</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="codigo" />
+                        <field name="marca" />
+                        <field name="modelo" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="ordenadores_impresoras_view_search" model="ir.ui.view">
+            <field name="name">Busqueda impresoras</field>
+            <field name="model">ordenadores.impresoras</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="codigo" />
+                    <field name="marca" />
+                    <field name="modelo" />
+                </search>
+            </field>
+        </record>
+
+    </data>
+</odoo>

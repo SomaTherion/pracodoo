@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <act_window id="ordenadores_accesorios_action" name="accesorios"
+                     res_model="ordenadores.accesorios" />
+
+         <menuitem name="amplificadores" id="menu_amplificadoress" action="ordenadores_accesorios_action" parent="menu_inicio" sequence="15"/>
+
+
+        <record id="ordenadores_accesorios_view_tree" model="ir.ui.view">
+            <field name="name">Lista amplificadores</field>
+            <field name="model">ordenadores.accesorios</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="codigo" />
+                    <field name="marca" />
+                    <field name="modelo" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="ordenadores_accesorios_view_form" model="ir.ui.view">
+            <field name="name">Formulario de accesorios</field>
+            <field name="model">ordenadores.accesorios</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="codigo" />
+                        <field name="marca" />
+                        <field name="modelo" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="ordenadores_accesorios_view_search" model="ir.ui.view">
+            <field name="name">Busqueda accesorios</field>
+            <field name="model">ordenadores.accesorios</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="codigo" />
+                    <field name="marca" />
+                    <field name="modelo" />
+                </search>
+            </field>
+        </record>
+
+    </data>
+</odoo>
