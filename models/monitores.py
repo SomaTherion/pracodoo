@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, api, fields
 
 class Monitores(models.Model):
     _name = 'ordenadores.monitores'
